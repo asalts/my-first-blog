@@ -25,11 +25,7 @@ SECRET_KEY = 'j^qr6$9&03a6x1y2ajo(5iw%k^(z8xmk3v70@j@gf-#7qhtsel'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = []
-=======
-ALLOWED_HOSTS = ['127.0.0.1', 'asalts.pythonanywhere.com']
->>>>>>> 82e3f842e9d90f8b21d63929bee3e6c56d04776b
 
 
 # Application definition
@@ -110,11 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-<<<<<<< HEAD
 TIME_ZONE = 'America/Vancouver'
-=======
-TIME_ZONE = 'America/Pacific'
->>>>>>> 82e3f842e9d90f8b21d63929bee3e6c56d04776b
 
 USE_I18N = True
 
