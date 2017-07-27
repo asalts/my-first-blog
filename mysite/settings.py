@@ -25,7 +25,7 @@ SECRET_KEY = 'j^qr6$9&03a6x1y2ajo(5iw%k^(z8xmk3v70@j@gf-#7qhtsel'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'America/Vancouver'
 
 USE_I18N = True
 
@@ -120,3 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+ALLOWED_HOSTS = ['127.0.0.1', 'asalts.pythonanywhere.com']
